@@ -1,0 +1,352 @@
+/**********************************************************************
+PLUGINS CUSTOMIZATIONS
+***********************************************************************/
+
+window#XfcePanelWindowWrapper {
+	padding: 0px;
+}
+
+window#XfcePanelWindowWrapper>widget>button#whiskermenu-button {
+	background-color: #343435;
+	/* background-color: red; */
+	opacity: 0.1;
+	border-radius: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	box-shadow: none;
+}
+
+widget#netload-35>widget>box>label {
+	font-size: 19px;
+	font-weight: normal;
+}
+
+/**
+      _            _                _
+  ___| | ___   ___| | __   ___ ___ | | ___  _ __
+ / __| |/ _ \ / __| |/ /  / __/ _ \| |/ _ \| '__|
+| (__| | (_) | (__|   <  | (_| (_) | | (_) | |
+ \___|_|\___/ \___|_|\_\  \___\___/|_|\___/|_|
+
+**/
+
+#XfcePanelWindow.panel.background.xfce4-panel widget#clock-34 button#clock-button.toggle.flat {
+	color: #91ff83;
+	padding: 7px;
+}
+
+
+/**
+
+ _     _     _      
+| |__ (_) __| | ___ 
+| '_ \| |/ _` |/ _ \
+| | | | | (_| |  __/
+|_| |_|_|\__,_|\___|
+                    
+          _     _     _                                        
+__      _| |__ (_)___| | _____ _ __ _ __ ___   ___ _ __  _   _ 
+\ \ /\ / / '_ \| / __| |/ / _ \ '__| '_ ` _ \ / _ \ '_ \| | | |
+ \ V  V /| | | | \__ \   <  __/ |  | | | | | |  __/ | | | |_| |
+  \_/\_/ |_| |_|_|___/_|\_\___|_|  |_| |_| |_|\___|_| |_|\__,_|
+                                                               
+ _           _   _              
+| |__  _   _| |_| |_ ___  _ __  
+| '_ \| | | | __| __/ _ \| '_ \ 
+| |_) | |_| | |_| || (_) | | | |
+|_.__/ \__,_|\__|\__\___/|_| |_|
+
+**/
+
+
+widget#whiskermenu-1>button#whiskermenu-button>box.horizontal>image {
+	opacity: 0;
+}
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+**/
+
+window#whiskermenu-window {
+	background-color: transparent;
+}
+
+window#whiskermenu-window>frame>border {
+	border-radius: 20px;
+}
+
+window#whiskermenu-window>frame {
+	background-color: transparent;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+window#whiskermenu-window>frame>stack {
+	background-color: #252526;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane {
+	border: none;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane>iconview {
+	background-color: #1e1e1e;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview *,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane>iconview>* {
+	padding: 7px;
+	font-size: 50%;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack {
+	margin-bottom: 10px
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack {
+	margin-bottom: 10px
+}
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+**/
+
+
+
+/*
+ _____  _    ____  _  __    _     ___ ____ _____
+|_   _|/ \  / ___|| |/ /   | |   |_ _/ ___|_   _|
+  | | / _ \ \___ \| ' /    | |    | |\___ \ | |
+  | |/ ___ \ ___) | . \    | |___ | | ___) || |
+  |_/_/   \_\____/|_|\_\   |_____|___|____/ |_|
+*/
+
+/* tasklist border spacing */
+window#XfcePanelWindow>widget>widget#tasklist-2>box.horizontal {
+	margin-right: 65px;
+}
+
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle {
+	box-shadow: none;
+}
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle {
+	box-shadow: none;
+}
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
+	box-shadow: none;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+
+/**************************/
+
+/**
+all buttons: START
+***/
+
+/** IMAGE AND LABEL*/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image {
+	background-color: #343435;
+}
+
+/**IMAGE ALONE**/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image {
+	margin-right: 0;
+	margin-left: 5px;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/** LABEL ONLY **/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label {
+	margin-left: -6px;
+	padding-left: 7px;
+	padding-right: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+**/
+
+/* remove slight distortion in parent box*/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
+	background-color: transparent;
+}
+
+/* all window bg */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image {
+	/* background-color: #0056b3; */
+	/* background-color: rgba(0, 86, 179, 0.3); */
+	background-color: rgba(141, 127, 1, 0.5);
+
+}
+
+/* all window hover bg */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image.minimized {
+	/* background-color: rgba(0, 86, 179, 0.3); */
+	background-color: rgba(36, 179, 0, 0.2);
+	opacity: 1;
+	border: none;
+}
+
+/* active window bg */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle>box.horizontal>image {
+	background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+/**************************************************************************************************************************************************************
+************************************************************************************************************************************************************
+
+  ___ _   _    _    ____ _____ _____     _______
+|_ _| \ | |  / \  / ___|_   _|_ _\ \   / / ____|
+ | ||  \| | / _ \| |     | |  | | \ \ / /|  _|
+ | || |\  |/ ___ \ |___  | |  | |  \ V / | |___
+|___|_| \_/_/   \_\____| |_| |___|  \_/  |_____|
+
+__        _____ _   _ ____   _____        __
+\ \      / /_ _| \ | |  _ \ / _ \ \      / /
+ \ \ /\ / / | ||  \| | | | | | | \ \ /\ / /
+  \ V  V /  | || |\  | |_| | |_| |\ V  V /
+   \_/\_/  |___|_| \_|____/ \___/  \_/\_/
+
+ ____  _   _ _____ _____ _____ ___  _   _   ____ _______   ___     _____ ____
+| __ )| | | |_   _|_   _|_   _/ _ \| \ | | / ___|_   _\ \ / / |   | ____/ ___|
+|  _ \| | | | | |   | |   | || | | |  \| | \___ \ | |  \ V /| |   |  _| \___ \
+| |_) | |_| | | |   | |   | || |_| | |\  |  ___) || |   | | | |___| |___ ___) |
+|____/ \___/  |_|   |_|   |_| \___/|_| \_| |____/ |_|   |_| |_____|_____|____/
+
+************************************************************************************************************************************************************
+**************************************************************************************************************************************************************/
+
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized {
+	
+	/* hides contents of image and label, for lack of a better option  */
+	/* padding-bottom: 1000px; */
+
+	background-color: transparent;
+	opacity: 0.15;
+}
+
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden {
+	border-left: none;
+}
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized {
+	border-right: none;
+}
+
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+/********************************************************************************************************************************************/
+
+
+
+
+/********************************
+
+| | | |/ _ \ \   / / ____|  _ \
+| |_| | | | \ \ / /|  _| | |_) |
+|  _  | |_| |\ V / | |___|  _ <
+|_| |_|\___/  \_/  |_____|_| \_\
+
+***********************************/
+
+/* window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label.label-hidden,
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image.minimized {
+
+	background-color: rgba(36, 179, 0, 0.707);
+	border: none;
+	
+} */
+
+/**************************************************************************************************************************************************************
+**************************************************************************************************************************************************************/
