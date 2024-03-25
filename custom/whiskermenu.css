@@ -1,0 +1,115 @@
+
+/**
+ _     _     _      
+| |__ (_) __| | ___ 
+| '_ \| |/ _` |/ _ \
+| | | | | (_| |  __/
+|_| |_|_|\__,_|\___|
+                    
+          _     _     _                                        
+__      _| |__ (_)___| | _____ _ __ _ __ ___   ___ _ __  _   _ 
+\ \ /\ / / '_ \| / __| |/ / _ \ '__| '_ ` _ \ / _ \ '_ \| | | |
+ \ V  V /| | | | \__ \   <  __/ |  | | | | | |  __/ | | | |_| |
+  \_/\_/ |_| |_|_|___/_|\_\___|_|  |_| |_| |_|\___|_| |_|\__,_|
+                                                               
+ _           _   _              
+| |__  _   _| |_| |_ ___  _ __  
+| '_ \| | | | __| __/ _ \| '_ \ 
+| |_) | |_| | |_| || (_) | | | |
+|_.__/ \__,_|\__|\__\___/|_| |_|
+
+**/
+
+
+widget#whiskermenu-1>button#whiskermenu-button>box.horizontal>image {
+	opacity: 0;
+}
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+**/
+
+
+window#whiskermenu-window {
+	background-color: #252526;
+	box-shadow: none;
+	border-radius: 0px;
+	outline: none;
+}
+
+window#whiskermenu-window>decoration {
+	box-shadow: none;
+	border: none;
+	outline: none;
+	outline-offset: unset;
+}
+
+window#whiskermenu-window>frame>stack,
+window#whiskermenu-window>frame>border {
+	margin: 20px;
+	padding: 0;
+	border-radius: 20px;
+	border: none;
+	box-shadow: none;
+}
+window#whiskermenu-window>frame>stack {
+	background-color: rgba(255, 37, 37, 0.2);
+	/* final color */
+	/* background-color: rgba(37, 37, 37, 0.2); */
+}
+
+window#whiskermenu-window>frame>border {
+	background-color: rgba(37, 37, 255, 0.2);
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane {
+	border: none;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane>iconview {
+	background-color: #1e1e1e;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview *,
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane>iconview>* {
+	/* padding: 7px; */
+	/* font-size: 50%; */
+
+
+	/* todo: fix later */
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack {
+	margin-bottom: 10px
+}
+
+window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack {
+	margin-bottom: 10px
+}

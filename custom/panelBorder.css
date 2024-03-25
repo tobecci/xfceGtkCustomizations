@@ -1,0 +1,87 @@
+/**
+PANEL STYLES
+**/
+
+/* panel border */
+window#XfcePanelWindow.xfce4-panel.panel.background {
+	border-style: solid;
+	border-color: #e2e2e2;
+	border-width: 0.7px;
+	border-radius: 5px;
+}
+
+
+/* panel plugin wrapper */
+window#XfcePanelWindowWrapper.background.panel.xfce4-panel {
+	/* background-color: rgb(14, 50, 17); */
+
+	border-color: #e2e2e2;
+	/* border-color:green; */
+	border-style: solid;
+	border-width: 0.7px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+	/* margin: 30px; */
+}
+
+
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>button.flat.toggle,
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>widget>button.flat.toggle {
+	background-color: #0056b3;
+	/* background-color: green; */
+	border-radius: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+/* systray */
+
+/* systray */
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal {
+	background-color: #0056b3;
+
+	border-radius: 5px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal>widget>widget {
+	background-color: black;
+}
+
+/* systray show more button */
+
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box>button.flat.toggle {
+	background-color: #8d6501;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+
+/* netload */
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>widget>box.horizontal {
+	background-color: #0056b3;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/* margin-top: 5px; */
+	/* margin-bottom: 5px; */
+	/* border-radius: 5px; */
+}
+
+/* bluetooth button */
+window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal>widget>button {
+	margin: 10px 5px 10px 5px;
+}

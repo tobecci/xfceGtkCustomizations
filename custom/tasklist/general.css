@@ -1,0 +1,130 @@
+
+/*
+ _____  _    ____  _  __    _     ___ ____ _____
+|_   _|/ \  / ___|| |/ /   | |   |_ _/ ___|_   _|
+  | | / _ \ \___ \| ' /    | |    | |\___ \ | |
+  | |/ ___ \ ___) | . \    | |___ | | ___) || |
+  |_/_/   \_\____/|_|\_\   |_____|___|____/ |_|
+*/
+
+/* tasklist border spacing */
+window#XfcePanelWindow>widget>widget#tasklist-2>box.horizontal {
+	margin-right: 65px;
+}
+
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle {
+	box-shadow: none;
+}
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.group-button.toggle {
+	box-shadow: none;
+}
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
+	box-shadow: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+/**************************/
+
+/**
+all buttons: START
+***/
+
+/** IMAGE AND LABEL*/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image {
+	background-color: #343435;
+}
+
+/**IMAGE ALONE**/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image {
+	margin-right: 0;
+	/* margin-left: 10px; */
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/** LABEL ONLY **/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label {
+	margin-left: -10px;
+	background-blend-mode: hue;
+	padding-left: 9px;
+	padding-right: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/**
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+**/
+
+/* remove slight distortion in parent box*/
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
+	background-color: transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* active window bg */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle>box.horizontal>image,
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle>box.horizontal>image {
+	background-color: #0056b3;
+}
+
+/* all window bg (mainly affects inactive window buttons) */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image,
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image {
+	background-color: rgb(141, 101, 1);
+}
+
+/* minimized window hover bg */
+/* window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image.minimized,
+
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.group-button.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.group-button.toggle>box.horizontal>image.minimized {
+
+	background-color: rgb(84, 9, 3);
+	opacity: 1;
+	border: none;
+} */
