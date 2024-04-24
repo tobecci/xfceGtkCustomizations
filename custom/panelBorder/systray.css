@@ -14,8 +14,8 @@ window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal
 /* systray show more button */
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box>button.flat.toggle {
 	background-color: #8d6501;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 13px;
+	margin-bottom: 13px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 3px;
@@ -46,6 +46,15 @@ window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {
 	border-color: #e2e2e2;
 	border-width: 0.7px;
 	border-radius: 5px;
+}
+
+window#XfcePanelWindowWrapper>widget#systray-33>box.horizontal{
+	border-radius: 5px;
+	/* background-color: green; */
+	padding-bottom: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	box-sizing: border-box;
 }
 
 /* window#XfcePanelWindowWrapper widget#systray-33>box.horizontal *{
