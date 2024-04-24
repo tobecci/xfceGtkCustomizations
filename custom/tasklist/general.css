@@ -1,4 +1,3 @@
-
 /*
  _____  _    ____  _  __    _     ___ ____ _____
 |_   _|/ \  / ___|| |/ /   | |   |_ _/ ___|_   _|
@@ -16,6 +15,14 @@ window#XfcePanelWindow>widget>widget#tasklist-2>box.horizontal {
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.toggle,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle {
 	box-shadow: none;
+}
+
+/* add border to button */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
+	border-style: solid;
+	border-color: #e2e2e2;
+	border-width: 0.7px;
+	border-radius: 5px;
 }
 
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle,
@@ -47,26 +54,40 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 /**IMAGE ALONE**/
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image {
+	padding-left: 5px;
+	padding-right: 2px;
 	margin-right: 0;
-	/* margin-left: 10px; */
-	padding-left: 10px;
-	padding-right: 10px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
 
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	/* controls the border radius of the tasklist buttons */
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	/*  */
 }
 
 /** LABEL ONLY **/
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label {
-	margin-left: -10px;
-	background-blend-mode: hue;
-	padding-left: 9px;
+	/* below property makes the label closer to the image */
+	/* that is why it is negative, the higher the number,the further left it shifts  */
+	/* tweak, until convenient  */
+	margin-left: -6px;
+	/*  */
+	/*  */
+
 	padding-right: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	background-blend-mode: hue;
+	padding-left: 2px;
+
+	/* controls the border radius of the tasklist buttons */
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	/*  */
+}
+
+/* general top and bottom paddings */
+window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal {
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 /**
@@ -92,8 +113,8 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 /* remove slight distortion in parent box*/
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button {
 	background-color: transparent;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
 
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -106,6 +127,7 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle>box.horizontal>label,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:checked.group-button.toggle>box.horizontal>image {
 	background-color: #0056b3;
+	color: white;
 }
 
 /* all window bg (mainly affects inactive window buttons) */
@@ -114,7 +136,8 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image {
-	background-color: rgb(141, 101, 1);
+	background-color: rgba(141, 101, 1, 1);
+	color: rgb(196, 196, 196);
 }
 
 /* minimized window hover bg */

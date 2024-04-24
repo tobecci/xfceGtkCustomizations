@@ -1,6 +1,4 @@
-@import url('custom/panelBorder.css');
-@import url('custom/pluginCustomizations.css');
-@import url('custom/whiskermenu.css');
-@import url('custom/tasklist/general.css');
-@import url('custom/tasklist/inactive.css');
-@import url('custom/tasklist/hover.css');
+@import url('custom/panelBorder/index.css');
+@import url('custom/plugins/index.css');
+@import url('custom/whiskermenu/index.css');
+@import url('custom/tasklist/index.css');
