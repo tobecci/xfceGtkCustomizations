@@ -1,0 +1,13 @@
+widget#power-manager-plugin-32>widget>button#xfce4-power-manager-plugin>box.horizontal>label {
+	color: rgb(246, 246, 39);
+	font-weight: normal;
+	font-size: 25x;
+
+	/* border-style: solid;
+	border-color: #3bff2a;
+	border-width: 1.2px;
+	border-radius: 3px; */
+
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}

@@ -1,7 +1,6 @@
 /* netload */
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>widget>box.horizontal {
-	background-color: #5d5d5d;
-	border-radius: 3px;
+	/* background-color: #5d5d5d; */
 	padding-left: 20px;
 	padding-right: 20px;
 

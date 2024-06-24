@@ -4,11 +4,10 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label.label-hidden,
 window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image.minimized {
 
-	/* hides contents of image and label, for lack of a better option  */
-	/* padding-bottom: 1000px; */
-
-	background-color: rgb(84, 9, 3);
-	opacity: 0.3;
+   /* make minimized applications to have reduced opacity (i.e barely visible) */
+	/* opacity: 0.2; */
+	opacity: 0.1;
+	background-color: transparent;
 }
 
 

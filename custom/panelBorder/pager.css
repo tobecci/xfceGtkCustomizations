@@ -1,0 +1,29 @@
+widget#pager-22 grid.horizontal button.flat.toggle {
+	background-color: transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	border-style: solid;
+	border-color: #e2e2e2;
+	border-width: 0.7px;
+	border-radius: 3px;
+	padding: 2px;
+
+}
+
+widget#pager-22 grid.horizontal button.flat.toggle label {
+
+	padding-left: 3px;
+	padding-right: 3px;
+	font-weight: normal;
+}
+
+
+widget#pager-22 grid.horizontal button.flat.toggle:checked {
+	background-color: #0177f5;
+	color: white;
+}

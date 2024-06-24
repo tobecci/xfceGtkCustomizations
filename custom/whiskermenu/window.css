@@ -1,7 +1,7 @@
 window#whiskermenu-window {
 	background-color: #252526;
 	box-shadow: none;
-	border-radius: 20px;
+	border-radius: 5px;
 	outline: none;
 }
 
@@ -16,7 +16,7 @@ window#whiskermenu-window>frame>stack,
 window#whiskermenu-window>frame>border {
 	margin: 20px;
 	padding: 0;
-	border-radius: 20px;
+	border-radius: 5px;
 	border: none;
 	box-shadow: none;
 }
@@ -43,9 +43,9 @@ window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.
 window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview,
 window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>scrolledwindow.frame.launchers-pane>iconview {
 	background-color: #1e1e1e;
-	padding: 20px;
-	margin: 20px;
-	border-radius: 20px;
+	padding: 7px;
+	margin: 10px;
+	border-radius: 5px;
 }
 
 window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack>scrolledwindow.frame.launchers-pane>iconview *,
@@ -55,8 +55,8 @@ window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.
 
 
 	/* todo: fix later */
-	padding-left: 7px;
-	padding-right: 7px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 window#whiskermenu-window.background.whiskermenu>frame>stack>box.vertical>stack.contents>grid.horizontal>stack {

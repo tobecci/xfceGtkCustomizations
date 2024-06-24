@@ -1,14 +1,14 @@
 /* systray */
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal {
-	background-color: #5d5d5d;
+	/* background-color: #5d5d5d; */
 
 	border-radius: 3px;
 
 	padding-left: 10px;
 	padding-right: 10px;
 
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 /* systray show more button */
@@ -24,14 +24,16 @@ window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box>button.fla
 
 
 /* bluetooth button */
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal>widget>button {
+/* window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal>widget>button {
 	margin: 10px 5px 10px 5px;
-}
+} */
 
 window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {
-	background-color: #0056b3;
+	/* background-color: #0056b3; */
+	/* background-color: #5d5d5d; */
 	margin: 0px;
 	padding: 0px;
+
 
 	border-radius: 3px;
 
@@ -41,19 +43,26 @@ window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {
 	/* padding-left: 20px;
 	padding-right: 20px; */
 
+	
+	border-radius: 3px;
+
+	/* margin-top: 5px;
+	margin-bottom: 5px; */
+
+	/* padding-left: 20px;
+	padding-right: 20px; */
+
 	/* border styles */
-	border-style: solid;
+	/* border-style: solid;
 	border-color: #e2e2e2;
 	border-width: 0.7px;
 	border-radius: 5px;
-}
+	border-top-width: 0px;
+	border-bottom-width: 0px; */
 
-window#XfcePanelWindowWrapper>widget#systray-33>box.horizontal{
-	border-radius: 5px;
-	/* background-color: green; */
 	padding-bottom: 0px;
-	margin-top: 3px;
-	margin-bottom: 3px;
+	/* margin-top: 3px; */
+	/* margin-bottom: 3px; */
 	box-sizing: border-box;
 }
 
@@ -83,10 +92,3 @@ window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box
 	margin-left: 10px;
 	padding-left: 10px;
 }
-
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box.horizontal>widget>widget window.background>decoration {
-	border: 2px solid red;
-	background-color: red;
-	margin-left: 10px;
-	padding-left: 10px;
-} */

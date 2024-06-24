@@ -5,17 +5,22 @@
 window#XfcePanelWindowWrapper>widget>button#whiskermenu-button {
 	background-color: #343435;
 	/* background-color: red; */
-	opacity: 0.6;
-	border-radius: 6px;
+	/* opacity: 0.6; */
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-left: 10px;
-	margin-right: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
 	box-shadow: none;
-
+	
 	/* border styles */
 	border-style: solid;
 	border-color: #e2e2e2;
 	border-width: 0.7px;
 	border-radius: 5px;
+
+	/* hide whisker menu */
+	/* margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -200px;
+	margin-right: 5px; */
 }

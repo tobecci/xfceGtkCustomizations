@@ -28,9 +28,9 @@ window#XfcePanelWindowWrapper.background.panel.xfce4-panel {
 
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>button.flat.toggle,
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>widget>button.flat.toggle {
-	background-color: #5d5d5d;
+	/* background-color: #5d5d5d; */
 	/* background-color: green; */
-	border-radius: 3px;
+	border-radius: 5px;
 
 	/* margin-top: 3px;
 	margin-bottom: 3px; */
