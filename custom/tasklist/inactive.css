@@ -6,7 +6,7 @@ window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tas
 
    /* make minimized applications to have reduced opacity (i.e barely visible) */
 	/* opacity: 0.2; */
-	opacity: 0.1;
+	opacity: 0.22;
 	background-color: transparent;
 }
 
