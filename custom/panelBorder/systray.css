@@ -21,13 +21,6 @@ window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box>button.fla
 	border-radius: 3px;
 }
 
-
-
-/* bluetooth button */
-/* window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal>widget>button {
-	margin: 10px 5px 10px 5px;
-} */
-
 window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {
 	/* background-color: #0056b3; */
 	/* background-color: #5d5d5d; */
@@ -63,32 +56,5 @@ window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {
 	padding-bottom: 0px;
 	/* margin-top: 3px; */
 	/* margin-bottom: 3px; */
-	box-sizing: border-box;
-}
-
-/* window#XfcePanelWindowWrapper widget#systray-33>box.horizontal *{
-	margin: 0px 0px 0px 0px;
-} */
-
-/* 
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box.horizontal>widget {
-	background-color: red;
-	border: red 2px solid;
-}
-
-
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box.horizontal>widget>button {
-	margin-right: 10px;
-}
-
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box.horizontal>widget>widget {
-	margin-right: 10px;
-}
-
-
-window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget#systray-33>box.horizontal>widget>widget window.background>image {
-	border: 2px solid red;
-	background-color: red;
-	margin-left: 10px;
-	padding-left: 10px;
+	/* box-sizing: border-box; */
 }
