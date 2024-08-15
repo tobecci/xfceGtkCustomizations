@@ -1,0 +1,31 @@
+widget#pager-8 grid.horizontal {
+
+	/* border: 0.8px solid white;
+	border-radius: 5px; */
+
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+widget#pager-8 grid.horizontal button#xfce-panel-toggle-button.flat.toggle {
+	color: white;
+	background-color: #343435;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+	/* border styles */
+	border-style: solid;
+	border-color: #e2e2e2;
+	border-width: 0.3px;
+	border-radius: 5px;
+}
+
+widget#pager-8 grid.horizontal button:checked#xfce-panel-toggle-button.flat.toggle {
+	background-color: #024b98;
+	border-width: 4px;
+	border-radius: 5px;
+}
