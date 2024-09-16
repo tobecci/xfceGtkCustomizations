@@ -14,11 +14,11 @@ window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box.horizontal
 /* systray show more button */
 window#XfcePanelWindowWrapper.xfce4-panel.panel.background>widget>box>button.flat.toggle {
 	background-color: #8d6501;
-	margin-top: 13px;
-	margin-bottom: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 3px;
+	border-radius: 1px;
 }
 
 window#XfcePanelWindowWrapper widget#systray-33>box.horizontal {

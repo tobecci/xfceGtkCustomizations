@@ -1,22 +1,23 @@
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden,
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized,
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized,
 
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label.label-hidden,
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image.minimized {
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image.minimized {
 
    /* make minimized applications to have reduced opacity (i.e barely visible) */
-	/* opacity: 0.2; */
-	opacity: 0.22;
+	opacity: 0.1;
+	/* opacity: 0.22; */
+	/* opacity: 0.7; */
 	background-color: transparent;
 }
 
 
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden,
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label.label-hidden {
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>label.label-hidden,
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>label.label-hidden {
 	border-left: none;
 }
 
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized,
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image.minimized {
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.toggle>box.horizontal>image.minimized,
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button.group-button.toggle>box.horizontal>image.minimized {
 	border-right: none;
 }

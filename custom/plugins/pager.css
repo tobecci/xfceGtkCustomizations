@@ -1,31 +1,17 @@
-widget#pager-8 grid.horizontal {
+window#XfcePanelWindow.background.panel.xfce4-panel widget#pager-4 button#xfce-panel-toggle-button.flat.toggle {
+	border: 0.4px solid white;
+	margin: 6px;
+	opacity: 0.4;
+	border-radius: 5px;
 
-	/* border: 0.8px solid white;
-	border-radius: 5px; */
+	padding-top: 3px;
+	padding-bottom: 3px;
 
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-widget#pager-8 grid.horizontal button#xfce-panel-toggle-button.flat.toggle {
-	color: white;
-	background-color: #343435;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-left: 3px;
-	margin-right: 3px;
-
-	/* border styles */
-	border-style: solid;
-	border-color: #e2e2e2;
-	border-width: 0.3px;
-	border-radius: 5px;
 }
 
-widget#pager-8 grid.horizontal button:checked#xfce-panel-toggle-button.flat.toggle {
-	background-color: #024b98;
-	border-width: 4px;
-	border-radius: 5px;
+window#XfcePanelWindow.background.panel.xfce4-panel widget#pager-4 button:checked#xfce-panel-toggle-button.flat.toggle {
+	border: 2px solid white;
+	opacity: 1.0;
 }

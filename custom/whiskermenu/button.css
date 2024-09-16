@@ -19,8 +19,8 @@ window#XfcePanelWindowWrapper>widget>button#whiskermenu-button {
 	border-radius: 5px;
 
 	/* hide whisker menu */
-	/* margin-top: 0px;
+	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: -200px;
-	margin-right: 5px; */
+	margin-left: -700px;
+	margin-right: 5px;
 }

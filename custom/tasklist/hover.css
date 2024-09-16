@@ -7,9 +7,9 @@
 
 ***********************************/
 
-/* window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label.label-hidden,
+/* window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>label.label-hidden,
 
-window#XfcePanelWindow.xfce4-panel.background.horizontal.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image.minimized {
+window#XfcePanelWindow.xfce4-panel.background.panel>widget>widget#tasklist-2>box.horizontal>widget.tasklist>button:hover.toggle>box.horizontal>image.minimized {
 
 	background-color: rgba(36, 179, 0, 0.707);
 	border: none;
